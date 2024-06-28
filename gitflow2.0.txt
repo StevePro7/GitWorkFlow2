@@ -11,3 +11,13 @@ git diff-tree --no-commit-id --name-only -r develop..main
 
 cut branch off release/2.0  bugfix/BUG-01_type
 fix "typo" in gitflow2.0
+
+
+UPDATES
+ready to ship release/2.0
+Pull Request | New			master	<= release/2.0
+Pull Request | New			develop	<= release/2.0
+Delete branch	release/2.0
+
+git checkout master
+Cut tag 2.0
