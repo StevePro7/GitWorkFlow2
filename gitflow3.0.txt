@@ -1,0 +1,18 @@
+cut branch      release/3.0
+ready to ship   release/3.0
+Pull Request | New			master	<= release/3.0
+Pull Request | New			develop	<= release/3.0
+Delete branch	release/3.0
+
+git checkout master
+Cut tag 3.0
+
+
+BEFORE
+git checkout master
+create branch   hotfix/2.1
+PR						master	<= 	hotfix/2.1
+PR						develop	<= 	hotfix/2.1
+Delete branch	hotfix/2.1
+git checkout master
+Cut tag 2.1
