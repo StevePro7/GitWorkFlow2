@@ -1,2 +1,13 @@
 cut branch  release/2.0
 git push --set-upstream origin release/2.0
+
+git diff-tree --no-commit-id --name-only -r release/2.0 develop
+creeate PR #4 merge release/2.0 => develop
+close
+
+develop + release/2.0 in sync
+git diff-tree --no-commit-id --name-only -r develop..main
+[2x files]
+
+cut branch off release/2.0  bugfix/BUG-01_type
+fix "typo" in gitflow2.0
