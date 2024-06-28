@@ -1,0 +1,13 @@
+GitFlow
+28-Jun-2024
+
+BEFORE
+main = tag0.1
+main = develop
+
+develop     updates
+feature/ABC-01_gitflow
+merge       PR #1           develop
+
+feature/ABC-02_notes
+merge       PR #2           develop
