@@ -1,0 +1,15 @@
+cut branch  release/1.0
+ship release/1.0
+
+git checkout main
+git merge --no-ff release/1.0
+git push
+release/1.0	=> main
+[delete release/1.0]
+
+open PR #3
+main 		=> develop
+develop in sync with main
+
+cut tag off main	1.0
+complete cycle
